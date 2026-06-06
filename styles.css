@@ -191,10 +191,10 @@ h1, h2, h3, h4, h5 { font-family: var(--f-display); font-weight: 600; letter-spa
 }
 .brand > span { display: inline-flex; flex-direction: column; line-height: 1.15; }
 .brand-mark {
-  width: 30px; height: 30px;
+  min-width: 30px; height: 30px; padding: 0 6px;
   border: 1px solid var(--amber);
   display: flex; align-items: center; justify-content: center;
-  color: var(--amber); font-weight: 700; font-size: 12px; letter-spacing: 0.04em;
+  color: var(--amber); font-weight: 700; font-size: 13px; letter-spacing: 0.06em;
   position: relative;
   box-shadow: 0 0 0 1px var(--bg-0), 0 0 16px var(--amber-glow);
 }
